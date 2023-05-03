@@ -182,8 +182,6 @@
   letter-spacing: .1rem;
   font-weight: 600;
   transition: .5sec ease;
-
-  
 }
 
 .btn:hover{
@@ -192,7 +190,9 @@
 .btn:hover{
   box-shadow: none;
 }
-
+.space{
+  display:block;
+}
 .about
 {
   display: flex;
