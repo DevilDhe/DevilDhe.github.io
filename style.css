@@ -74,6 +74,9 @@
  {
     color:var(--main-color);
  }
+  .navbar.active {
+  display: block;
+}
 
  #menu-icon
  {
