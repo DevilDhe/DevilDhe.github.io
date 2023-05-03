@@ -528,6 +528,10 @@
   {
     font-size: 5rem;
   }
+  .home-btn2{
+    
+    margin-bottom: 3rem;
+  }
   .home-img img
   {
     width:70vw;
@@ -544,10 +548,7 @@
     margin-top: 4rem;
 
   }
-  .about-btn2{
-    
-    margin-bottom: 3rem;
-  }
+  
   .services h2
   {
     margin-bottom: 3rem;
