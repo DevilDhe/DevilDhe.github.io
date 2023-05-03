@@ -1,15 +1,12 @@
-let menuIcon=document.querySelectorAll('#menu-icon');
-let navbar=document.querySelectorAll('.navbar');
+let menuIcon = document.querySelectorAll('#menu-icon');
+let navbar = document.querySelectorAll('.navbar');
 
-menuIcon.onclick=()=>
-{
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-    
-    
-
-    
-}
+menuIcon.forEach(icon => {
+  icon.onclick = () => {
+    icon.classList.toggle('bx-x');
+    navbar.forEach(nav => nav.classList.toggle('active'));
+  }
+});
 
 
 // Add an "active" class to the clicked link
