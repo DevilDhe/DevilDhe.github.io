@@ -169,7 +169,7 @@
   font-weight: 600;
   transition: .5sec ease;
 }
- .btn
+ .btn2
  {
   margin-left: 9px;
   display: inline-block;
@@ -187,7 +187,7 @@
 .btn:hover{
   box-shadow: none;
 }
-.btn:hover{
+.btn2:hover{
   box-shadow: none;
 }
 .space{
@@ -543,6 +543,10 @@
     width: 70vw;
     margin-top: 4rem;
 
+  }
+  .about-btn2{
+    
+    margin-bottom: 3rem;
   }
   .services h2
   {
