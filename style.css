@@ -169,9 +169,9 @@
   font-weight: 600;
   transition: .5sec ease;
 }
- .btn2
+ .btn
  {
- 
+  margin-left: 9px;
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
@@ -189,7 +189,7 @@
 .btn:hover{
   box-shadow: none;
 }
-.btn2:hover{
+.btn:hover{
   box-shadow: none;
 }
 
